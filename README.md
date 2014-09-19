@@ -65,14 +65,11 @@ Handlers
 * reliability: server online uptime greater than 95% after launch
 * robustness: server will restart and allow users to relog in and continue saved games
 * portability: clients only need working internet browser to play
-* database will purge data game data from exited games and thusly save meta data. Active games will be saved in their 'entirety'- with discression
-
+* database will purge data game data from exited games and thusly save meta data. Active games will be saved in their 'entirety'- with discretion
+* game visualization up to developers discretion
 
 ## Rules ##
-### Moving ###
 
-### Taking territory ###
-
-
+All game logic processing will occur according to the gameplay rules of the official RISK packet, linked at the beginning of wiki.
 
 
