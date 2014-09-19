@@ -58,7 +58,7 @@ Handlers
 
 ## Non-Functional Requirements ##
 
-General requirements
+### General requirements ###
 * turns will be not longer than 20 seconds.
 * if user disconnects all actions are frozen and game state is saved
 * game will allow reconnections given authentication of user
@@ -66,13 +66,12 @@ General requirements
 * Users acounts will be secure with encrypted passwords and email recovery
 * game will support 2-8 players
 
-### Development ### 
+### Development ###
 * server response will be no longer than 4 seconds on average
-* reliability: server online uptime >95% after launch
+* reliability: server online uptime greater than 95% after launch
 * robustness: server will restart and allow users to relog in and continue saved games
 * portability: clients only need working internet browser to play
 * database will purge data game data from exited games and thusly save meta data. Active games will be saved in their 'entirety'- with discression
-
 
 
 ## Rules ##
@@ -80,12 +79,6 @@ General requirements
 
 ### Taking territory ###
 
-
-
-
-## Functional Requirements ##
-
-Game services include...
 
 
 
