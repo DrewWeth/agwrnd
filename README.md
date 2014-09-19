@@ -1,14 +1,4 @@
-# Agwrnd RISK Wiki #
-
-## System Requirements ##
-
-You need...
-* a comp
-* six set of playing pieces each with different colors consisting of a large number of 3 pointed pieces (representing one army) and seversal 5 pointed pieces (representing 10 armies).
-* a player board with 6 continents with territories
-* deck of 44 cards plus one useless card
-* six dice: 3 white, 3 colored 
-* at least one friend
+# AGWRND RISK Wiki #
 
 ## System Requirements ##
 
@@ -45,11 +35,15 @@ Game will enable user to...
 * save a game manually
 
 Constraints and Controls
-* game will not allow player actions (e.g. moving, attacking, defending) against listed rules
+* game will not allow player actions (e.g. moving, attacking, defending, placing, etc) against listed rules
 * game will not distribute distribute armies against rules
 * game will not allot territories and continents against rules
 * game will not allot turns against the rules
 * game will aggregate army and territorial winning/losing math in according to the rules
+* game will emulate 6 dice divided into 2 categories of 3 dice each for accurate gameplay
+* game will emulate 42 cards representing each territory each with 1 selected value from a pool of 3 values (3 categories)
+* game will emulate 2 'wild cards' that represent the 3 values from the normal 44 cards
+
 
 Handlers
 * on illegal move request, game will not refuse action and notify user to select valid move
