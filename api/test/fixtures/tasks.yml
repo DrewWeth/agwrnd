@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyString
+  completed: false
+  user_id: 1
+  completed_at: 2015-01-07 00:04:58
+  priority: 1
+
+two:
+  content: MyString
+  completed: false
+  user_id: 1
+  completed_at: 2015-01-07 00:04:58
+  priority: 1

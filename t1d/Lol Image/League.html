@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://localhost:3000/users/edit -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>League</title>
+  <link data-turbolinks-track="true" href="http://localhost:3000/assets/competitions.css?body=1" media="all" rel="stylesheet">
+<link data-turbolinks-track="true" href="http://localhost:3000/assets/scaffolds.css?body=1" media="all" rel="stylesheet">
+<link data-turbolinks-track="true" href="http://localhost:3000/assets/teams.css?body=1" media="all" rel="stylesheet">
+<link data-turbolinks-track="true" href="http://localhost:3000/assets/application.css?body=1" media="all" rel="stylesheet">
+  <script data-turbolinks-track="true" src="./League_files/jquery.js"></script>
+<script data-turbolinks-track="true" src="./League_files/jquery_ujs.js"></script>
+<script data-turbolinks-track="true" src="./League_files/turbolinks.js"></script>
+<script data-turbolinks-track="true" src="./League_files/competitions.js"></script>
+<script data-turbolinks-track="true" src="./League_files/teams.js"></script>
+<script data-turbolinks-track="true" src="./League_files/application.js"></script>
+  <meta content="authenticity_token" name="csrf-param">
+<meta content="sWKcd3W0nVyQHRJentu+pTyd5d9uToz7C3w4dJwXMlM=" name="csrf-token">
+</head>
+<body cz-shortcut-listen="true">
+
+Logged in as <a href="./League_files/League.html">dgwetherington@gmail.com</a> | <a data-method="delete" href="http://localhost:3000/users/sign_out" rel="nofollow">Logout</a>
+<h2>Edit User</h2>
+
+<form accept-charset="UTF-8" action="http://localhost:3000/users" class="edit_user" id="edit_user" method="post"><div style="display:none"><input name="utf8" type="hidden" value="✓"><input name="_method" type="hidden" value="put"><input name="authenticity_token" type="hidden" value="sWKcd3W0nVyQHRJentu+pTyd5d9uToz7C3w4dJwXMlM="></div>
+  
+
+  <div><label for="user_email">Email</label><br>
+  <input autofocus="autofocus" id="user_email" name="user[email]" type="email" value="dgwetherington@gmail.com"></div>
+
+  <div><label for="user_string">String</label><br>
+  <input id="user_summoner_name" name="user[summoner_name]" type="text"></div>
+
+
+
+  <div><label for="user_password">Password</label> <i>(leave blank if you don't want to change it)</i><br>
+    <input autocomplete="off" id="user_password" name="user[password]" type="password"></div>
+
+  <div><label for="user_password_confirmation">Password confirmation</label><br>
+    <input autocomplete="off" id="user_password_confirmation" name="user[password_confirmation]" type="password"></div>
+
+  <div><label for="user_current_password">Current password</label> <i>(we need your current password to confirm your changes)</i><br>
+    <input autocomplete="off" id="user_current_password" name="user[current_password]" type="password"></div>
+
+  <div><input name="commit" type="submit" value="Update"></div>
+</form>
+<h3>Cancel my account</h3>
+
+<p>Unhappy? </p><form action="http://localhost:3000/users" class="button_to" method="post"><div><input name="_method" type="hidden" value="delete"><input data-confirm="Are you sure?" type="submit" value="Cancel my account"><input name="authenticity_token" type="hidden" value="sWKcd3W0nVyQHRJentu+pTyd5d9uToz7C3w4dJwXMlM="></div></form><p></p>
+
+<a href="http://localhost:3000/users/sign_in">Back</a>
+
+
+
+
+</body></html>

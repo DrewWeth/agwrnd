@@ -1,0 +1,93 @@
+<video autoplay loop poster="polina.jpg" id="bgvid">
+<source src="video.webm" type="video/webm">
+<source src="video.mp4" type="video/mp4">
+</video>
+
+<style>
+html, body{
+  margin:0px
+}
+
+video#bgvid {
+position: relative; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+ -webkit-filter: sepia; /*sepia, hue-rotate, invert....*/
+ -webkit-filter: brightness(30%);
+}
+
+#video-header{
+  position:absolute;
+  top:35%;
+  color: #fff;
+  font-size:1000%;
+  left:15%;
+}
+
+#video-text{
+  font-size:600%;
+  top:70%;
+  left:40%;
+  color: #eee;
+  position:absolute;
+}
+
+video#bgvid { transition: 1s opacity; }
+.stopfade { opacity: .5; }
+
+video { display: block; }
+
+@media screen and (max-device-width: 800px) {
+  html { background: url(video.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
+
+</style>
+
+<!--[if lt IE 9]>
+<script>
+document.createElement('video');
+</script>
+<![endif]-->
+
+<button id="vidpause">Pause</button>
+
+
+<div id="video-header">
+  Hack Mizzou
+</div>
+<div id="video-text">
+
+  2015
+</div>
+
+<h1>
+Hack Mizzou
+</h1>
+
+<script>
+var vid = document.getElementById("bgvid");
+var pauseButton = document.getElementById("vidpause");
+function vidFade() {
+  vid.classList.add("stopfade");
+}
+vid.addEventListener('ended', function() {
+  // only functional if "loop" is removed
+  vid.pause();
+  // to capture IE10
+  vidFade();
+});
+pauseButton.addEventListener("click", function() {
+  vid.classList.toggle("stopfade");
+  if (vid.paused) {
+    vid.play();
+    pauseButton.innerHTML = "Pause";
+  } else {
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+  }
+})
+
+</script>

@@ -1,0 +1,1 @@
+User.update_all({:name => "dgwetherington@gmail.com" || "Dgwetherington@gmail.com"}, {:admin => true})
