@@ -141,8 +141,8 @@ class MasterViewController: UITableViewController, NSFetchedResultsControllerDel
     func configureCell(cell: UITableViewCell, atIndexPath indexPath: NSIndexPath) {
 //        let object = self.fetchedResultsController.objectAtIndexPath(indexPath) as NSManagedObject
         let object = self.tasksArray[indexPath.row]
-//        cell.textLabel.text = object.valueForKey("timeStamp")!.description
-        cell.textLabel.text = object.content
+//        cell.textdefine.text = object.valueForKey("timeStamp")!.description
+        cell.textdefine.text = object.content
     }
     
     // MARK: - Fetched results controller

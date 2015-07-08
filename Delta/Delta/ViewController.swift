@@ -56,7 +56,7 @@ class ViewController: UITableViewController {
         
         var post : Post
         post = postsCollection[indexPath.row]
-        cell.textLabel.text = post.content
+        cell.textdefine.text = post.content
         return cell
     }
 }

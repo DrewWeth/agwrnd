@@ -1,0 +1,19 @@
+
+----------------------------------------
+Debug Assertion
+time:      Thu Jun 25 22:30:03 2015
+line:      215
+module:    Objects
+assertion: In(PatternX,1,Entry.PatternWidth)
+position:  [32956,32504,7]
+Parameter: 3
+----------------------------------------
+----------------------------------------
+Debug Assertion
+time:      Thu Jun 25 22:30:53 2015
+line:      215
+module:    Objects
+assertion: In(PatternX,1,Entry.PatternWidth)
+position:  [32956,32504,7]
+Parameter: 2
+----------------------------------------

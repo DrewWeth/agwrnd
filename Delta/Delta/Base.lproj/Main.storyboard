@@ -13,17 +13,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textLabel="ew5-TF-XQ3" style="IBUITableViewCellStyleDefault" id="5y4-c0-l7a">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" textdefine="ew5-TF-XQ3" style="IBUITableViewCellStyleDefault" id="5y4-c0-l7a">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5y4-c0-l7a" id="Azg-7T-7x6">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ew5-TF-XQ3">
+                                        <define opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ew5-TF-XQ3">
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
-                                        </label>
+                                        </define>
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -35,7 +35,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="OEu-uR-xKI"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="wXd-np-d0h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wXd-np-d0h" userdefine="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="657" y="46"/>
         </scene>
@@ -51,7 +51,7 @@
                         <segue destination="GwG-bo-dyR" kind="relationship" relationship="rootViewController" id="rSZ-gu-wTW"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fxu-SM-q9S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxu-SM-q9S" userdefine="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-55" y="46"/>
         </scene>

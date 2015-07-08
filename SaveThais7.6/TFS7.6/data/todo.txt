@@ -1,0 +1,73 @@
+Open Amazon Web Services Windows server
+Get AWS IP
+Download Uniserver
+Install git
+Transfer  to AWS
+Edit TFS config files
+Set up Chronjobs or listener app
+
+
+Quests
+Fire axe
+Orc fort
+BK
+Warlock
+Thais cyclops
+Behe
+Anni
+DHQ
+Monsters
+Actions
+Mana fluid
+health fluid
+NPCs
+travel
+ranged
+power bolt
+magic
+generic
+all
+armor/weapons
+jewels
+Map
+Set towns
+Spawn density
+Set NPCs
+Set Towns
+Spells
+adori blank
+50% rune costs
+Storyline
+“runes are 50% off”
+give 5k at level 20
+Config
+exp rate
+8-50: 40x
+51-80: 20x
+81-120: 8x
+120+: 4x
+attack rate
+1.33
+regen
+mages
+4 mana / 0.5s
+1 hp / 0.5s
+7 mana / 0.5 s
+paladin
+2 mana / 0.5s
+1 hp / 0.5s
+4 mana / 0.5s
+knight
+1 mana / 0.5s
+2 hp / 0.5s
+3 mana / 0.5s
+skill: 10x
+magic: 5x
+loot: 4-5x
+Website
+Remove broken links
+Materialize css
+News link
+About on main page
+Get Started page
+$$$$ page
